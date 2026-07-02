@@ -1,0 +1,744 @@
+Build a world-class luxury fashion e-commerce platform called **CASA MILAN**. This is not just an online store—it is a premium digital fashion house that should feel comparable to luxury brands such as Louis Vuitton, Dior, Jacquemus, Aime Leon Dore, Fear of God, Zara Studio, and COS. Every page should feel elegant, refined, modern, editorial, and highly polished while maintaining exceptional speed and usability.
+
+The entire project must be production-ready, scalable, secure, maintainable, and written using clean, modular code with enterprise-level architecture.
+
+==================================================
+TECH STACK
+==================================================
+
+Framework:
+- Next.js 15 (App Router)
+- React
+- TypeScript
+
+Styling:
+- Tailwind CSS
+- Framer Motion
+- GSAP where appropriate
+- CSS variables for theming
+
+Database:
+- PostgreSQL hosted on Neon or Supabase
+
+ORM:
+- Prisma
+
+Authentication:
+- Clerk (preferred) or Auth.js
+
+Payments:
+- Stripe (USD currency)
+- Support Visa
+- Mastercard
+- Apple Pay
+- Google Pay
+- Bank Cards
+- Include architecture that allows future expansion to additional payment providers.
+
+Storage:
+- Cloudinary for unlimited images and videos
+
+Email:
+- Resend
+
+Analytics:
+- Google Analytics 4
+- Vercel Analytics
+
+Search:
+- Meilisearch or Algolia
+
+AI:
+- OpenAI API (or compatible LLM provider)
+
+Deployment:
+- Vercel
+
+==================================================
+PERFORMANCE
+==================================================
+
+Implement enterprise-level optimization:
+
+- Server-side rendering
+- Static generation where appropriate
+- Image optimization
+- Video optimization
+- Lazy loading
+- Code splitting
+- Route prefetching
+- CDN support
+- Caching
+- Progressive Web App (PWA)
+- Installable like an app
+- Offline support where practical
+- Accessibility (WCAG)
+- Lighthouse score above 95
+- Excellent SEO
+- Schema markup
+- Meta tags
+- Open Graph support
+- Responsive across all devices
+- Secure API architecture
+- Production-ready error handling
+
+==================================================
+BRAND IDENTITY
+==================================================
+
+Brand Name:
+
+CASA MILAN
+
+Brand Positioning:
+
+A premium contemporary fashion house focused on elegance, quality, comfort, and purpose.
+
+Tagline:
+
+**Wear Elegance. Create Impact.**
+
+Core Values:
+
+- Elegance
+- Purpose
+- Authenticity
+- Comfort
+
+==================================================
+COLOR PALETTE
+==================================================
+
+Luxury neutral palette:
+
+Primary:
+Soft Ivory
+
+Secondary:
+Warm White
+
+Accent:
+Champagne Gold
+
+Supporting:
+Stone Beige
+
+Dark:
+Charcoal
+
+Text:
+Rich Black
+
+Use subtle gradients, generous whitespace, soft shadows, elegant spacing, and premium visual hierarchy.
+
+==================================================
+TYPOGRAPHY
+==================================================
+
+Headings:
+
+- Canela
+- Cormorant Garamond
+- Bodoni Moda
+- Editorial New (licensed)
+- Playfair Display
+
+Body:
+
+- Inter
+- Manrope
+- Plus Jakarta Sans
+- General Sans
+
+Buttons:
+
+- Satoshi
+- Manrope SemiBold
+
+==================================================
+LOGO SYSTEM
+==================================================
+
+Design a timeless luxury logo system including:
+
+- CASA MILAN in elegant uppercase typography
+- Refined CM monogram
+- Minimal geometric styling
+- Subtle house-inspired motif referencing "Casa"
+- Fashion-house aesthetic
+- Light version
+- Dark version
+- Horizontal version
+- Stacked version
+- Icon-only version
+- Favicon
+- SVG assets
+
+The logo should look premium on:
+
+- Website
+- Clothing tags
+- Shopping bags
+- Packaging
+- Social media
+- Mobile app
+
+==================================================
+HOMEPAGE
+==================================================
+
+Create a luxury editorial homepage including:
+
+Luxury navigation
+
+Mega menu
+
+Search
+
+Wishlist
+
+Account
+
+Shopping cart
+
+Hero section with cinematic image/video
+
+Featured collections
+
+New arrivals
+
+Best sellers
+
+Trending now
+
+Seasonal campaign
+
+Editorial campaign section
+
+Luxury storytelling
+
+Lookbook preview
+
+Featured categories
+
+AI styling recommendations
+
+Customer reviews
+
+Instagram gallery
+
+Newsletter
+
+Impact section
+
+Blog preview
+
+Footer
+
+Elegant micro animations throughout.
+
+==================================================
+SHOP
+==================================================
+
+Build an advanced shopping experience.
+
+Features:
+
+Grid/list view
+
+Filters
+
+Sorting
+
+Category navigation
+
+Brand filters
+
+Price filters
+
+Color filters
+
+Size filters
+
+Availability filters
+
+Search
+
+Infinite scrolling
+
+Pagination
+
+Recently viewed
+
+Related products
+
+Recommended products
+
+==================================================
+PRODUCT PAGE
+==================================================
+
+Each product page should include:
+
+Large image gallery
+
+Zoom
+
+360° support
+
+Videos
+
+Unlimited media
+
+Size guide
+
+Availability
+
+Variants
+
+Inventory
+
+Descriptions
+
+Materials
+
+Care instructions
+
+Shipping
+
+Returns
+
+Real customer reviews only
+
+Questions & Answers
+
+Related products
+
+Recently viewed
+
+AI recommendations
+
+Wishlist
+
+Share
+
+==================================================
+CHECKOUT
+==================================================
+
+Modern checkout with:
+
+Guest checkout
+
+Account checkout
+
+Stripe payments in USD
+
+Discount codes
+
+Gift cards
+
+Shipping estimator
+
+Tax calculations
+
+Order notes
+
+Order tracking
+
+Confirmation emails
+
+==================================================
+CUSTOMER ACCOUNT
+==================================================
+
+Customer dashboard including:
+
+Orders
+
+Wishlist
+
+Saved addresses
+
+Returns
+
+Profile
+
+Password
+
+Newsletter preferences
+
+Loyalty points
+
+Gift cards
+
+Referral dashboard
+
+==================================================
+VIP MEMBERSHIP
+==================================================
+
+Premium membership section featuring:
+
+Exclusive collections
+
+Early access
+
+Special pricing
+
+VIP events
+
+Personal recommendations
+
+==================================================
+LOYALTY PROGRAM
+==================================================
+
+Points system
+
+Rewards
+
+Birthday rewards
+
+Referral bonuses
+
+Exclusive discounts
+
+==================================================
+BLOG / FASHION JOURNAL
+==================================================
+
+Editorial luxury blog featuring:
+
+Fashion articles
+
+Style guides
+
+Campaigns
+
+Behind the scenes
+
+Brand stories
+
+Lookbooks
+
+==================================================
+LOOKBOOKS
+==================================================
+
+Seasonal editorial pages with:
+
+Lifestyle photography
+
+Interactive galleries
+
+Video
+
+Shop the look
+
+==================================================
+AI ASSISTANT
+==================================================
+
+Integrate a real AI assistant powered by the OpenAI API (or another compatible large language model). This should be significantly more capable than a basic chatbot.
+
+It must:
+
+Answer product questions
+
+Recommend outfits
+
+Compare products
+
+Explain sizing
+
+Recommend colors
+
+Suggest matching accessories
+
+Find products naturally
+
+Search inventory
+
+Answer shipping questions
+
+Answer return policy questions
+
+Answer payment questions
+
+Track orders (when authenticated)
+
+Recommend gifts
+
+Recommend travel outfits
+
+Recommend office outfits
+
+Recommend event outfits
+
+Explain materials
+
+Answer care instructions
+
+Notify about restocks
+
+Suggest alternatives
+
+Search collections
+
+Search blog articles
+
+Search FAQs
+
+Answer store policies
+
+Search promotions
+
+Search by natural language
+
+Examples:
+
+"Show me black joggers."
+
+"I need a white oversized shirt."
+
+"What is under $80?"
+
+"What matches these trousers?"
+
+"What should I wear for a dinner date?"
+
+"Recommend an airport outfit."
+
+"Which items are trending?"
+
+"Compare these two products."
+
+"Which size should I buy?"
+
+"When will this return?"
+
+"Do you ship internationally?"
+
+In addition, the assistant should have general web knowledge and be able to answer broader questions beyond the store, while clearly distinguishing between store-specific information and general information from the wider internet.
+
+==================================================
+SEARCH
+==================================================
+
+Natural language intelligent search powered by Meilisearch or Algolia.
+
+Should search:
+
+Products
+
+Collections
+
+Brands
+
+Categories
+
+Blog posts
+
+Lookbooks
+
+Policies
+
+FAQs
+
+Pages
+
+Customer help
+
+AI recommendations
+
+==================================================
+DONATION / IMPACT PLATFORM
+==================================================
+
+One of the brand's defining features is that every purchase contributes to charitable giving.
+
+Create a dedicated "Impact" page and homepage section.
+
+Headline:
+
+**Every Purchase Gives Back**
+
+Include:
+
+Total donations made
+
+Number of children helped
+
+Partner orphanages
+
+Annual impact reports
+
+Gallery of real donation drive photos and videos
+
+Stories from beneficiaries
+
+Progress counters
+
+Impact timeline
+
+Transparency reports
+
+Customers should immediately understand that shopping with CASA MILAN supports meaningful causes.
+
+==================================================
+ADMIN DASHBOARD
+==================================================
+
+Create a secure enterprise admin dashboard that allows management of the entire business without touching code.
+
+Admin must be able to:
+
+Add products
+
+Edit products
+
+Delete products
+
+Upload unlimited images
+
+Upload unlimited videos
+
+Manage inventory
+
+Manage pricing
+
+Manage collections
+
+Manage categories
+
+Create homepage banners
+
+Edit homepage
+
+Edit every website page
+
+Manage navigation
+
+Publish blogs
+
+Create lookbooks
+
+Manage FAQs
+
+Manage customers
+
+Manage orders
+
+Manage shipping
+
+Manage delivery fees
+
+Create coupons
+
+Flash sales
+
+Countdown campaigns
+
+Loyalty management
+
+Referral management
+
+Gift cards
+
+Manage reviews
+
+Approve reviews
+
+Reply to reviews
+
+Staff accounts
+
+Role-based permissions
+
+Reports
+
+Sales analytics
+
+Inventory analytics
+
+Customer analytics
+
+Export reports
+
+Backups
+
+Restore backups
+
+SEO management
+
+Meta tags
+
+Redirects
+
+Policy pages
+
+Schedule product launches
+
+Manage AI prompts and assistant behavior
+
+Manage donation statistics and impact content
+
+==================================================
+SECURITY
+==================================================
+
+Enterprise security:
+
+Role permissions
+
+Rate limiting
+
+Secure authentication
+
+Server validation
+
+API protection
+
+Environment variables
+
+Encryption
+
+Audit logs
+
+Input validation
+
+==================================================
+ANIMATIONS
+==================================================
+
+Elegant only.
+
+Use subtle premium motion.
+
+Avoid excessive animations.
+
+Everything should feel luxurious.
+
+==================================================
+REVIEWS
+==================================================
+
+Only authentic customer reviews submitted by verified purchasers.
+
+No fake or generated reviews.
+
+Include star ratings, review moderation, image uploads, and helpful votes.
+
+==================================================
+FUTURE MOBILE APP
+==================================================
+
+Structure the backend as a reusable API-first architecture so that native iOS and Android apps can be built later using the same backend without rebuilding business logic.
+
+==================================================
+FINAL GOAL
+==================================================
+
+Deliver a complete, production-ready luxury fashion platform with a polished UI/UX, enterprise-grade performance, scalable architecture, secure backend, intelligent AI assistant, robust admin dashboard, impactful donation tracking, and a premium customer experience that feels like a modern global fashion house rather than a typical online store. Every component should be cleanly organized, fully documented, and ready for deployment on Vercel.
